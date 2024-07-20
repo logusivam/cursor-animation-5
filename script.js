@@ -30,7 +30,7 @@
         } = e;
 
         cursor.style.left = x + 'px';
-        cursor.style.top = y + 'px;'
+        cursor.style.top = y + 'px';
     };
 
     link.forEach(b => b.addEventListener('mousemove', animateit));
