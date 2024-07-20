@@ -38,3 +38,43 @@ span
     pointer-events: none;
     transition: transform 0.1s linear;
 }
+
+.cursor
+{
+    pointer-events: none;
+    position: fixed;
+    padding: 0.3rem;
+    background-color: #ffff;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    transition: transform 0.3s ease;
+}
+
+/* cursor effect added  */
+.hover-this:hover ~ .cursor
+{
+    transform: translate(-50%, -50%) scale(0);
+}
+
+@media(min-width: 900px)
+{
+    nav
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 900px) 
+{
+    nav 
+    {
+        top: 30%;
+    }
+    .hover-this
+    {
+        width: 100%;
+        padding: 20px 0;
+        display: inline-block;
+    }
+}
