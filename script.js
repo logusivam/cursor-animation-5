@@ -1,7 +1,7 @@
 (function () {
 
     const link = document.querySelectorAll('nav > .hover-this');
-    const cursor = document.querySelectorAll('.cursor');
+    const cursor = document.querySelector('.cursor');
 
     const animateit = function (e) {
         const span = this.querySelector('span');
