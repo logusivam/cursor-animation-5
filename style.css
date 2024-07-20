@@ -53,7 +53,7 @@ span
 /* cursor effect added  */
 .hover-this:hover ~ .cursor
 {
-    transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(8);
 }
 
 @media(min-width: 900px)
