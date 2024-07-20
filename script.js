@@ -6,7 +6,7 @@
     const animateit = function (e) {
         const span = this.querySelector('span');
         const {
-            offsetX: x, offesetY: y
+            offsetX: x, offsetY: y
         } = e,
         {
             offsetWidth: width,
